@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Global */
+.weig-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+/* Filters and projects */
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item.active {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+
+.list-group-item-action:hover {
+  background-color: #9becae;
+}
+
+/* Class for important tasks */
+.important {
+  color: red;
+}
+
+/* Add task button */
+.fixed-right-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+/* Class for taskForm */
+.bg-green {
+  border: 1px solid #9becae;
+  background-color: #9becae;
+}
+
+.bg-red {
+  border: 1px solid #ec9b9b;
+  background-color: #ec9b9b;
+}
+
+.bg-yellow {
+  border: 1px solid #ebec9b;
+  background-color: #ebec9b;
+}
+
+.bg-green-light {
+  border: 1px solid #defae5;
+  background-color: #defae5;
+}
+
+.task-form{
+  margin-top: 10em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width: 50%;
+  border: 4px solid green;
+  border-radius: 10px 10px 10px 10px;
+  height:75%;
+} 
+
+
+.user-icon{
+  margin-top: -4.5em;
+  margin-bottom: 1em;
+} 
